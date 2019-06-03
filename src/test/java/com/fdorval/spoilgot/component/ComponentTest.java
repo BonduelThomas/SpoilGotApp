@@ -74,27 +74,31 @@ public class ComponentTest {
 	    //TODO
 	    @Test
 	    public void shouldReturn400ifSeasonIsNotInt() throws Exception {
-	    	//A vous de coder
+	    	if Season  
 	    }
 	    
 	    /**
 	     * l'appli doit retourner 400 si le paramètre "season" est <1
+	     * @return 
 	     * @throws Exception
 	     */
 	    //TODO
 	    @Test
-	    public void shouldReturn400ifSeasonIsLowerThanOne() throws Exception {
-	    	//A vous de coder
+	    public int shouldReturn400ifSeasonIsLowerThanOne() throws Exception {
+	    	if (Season < 1)
+	    		return(400);
 	    }
 	    
 	    /**
 	     * l'appli doit retourner 400 si le paramètre "season" est >8
+	     * @return 
 	     * @throws Exception
 	     */
 	    //TODO
 	    @Test
-	    public void shouldReturn400ifSeasonIsHigherThanEight() throws Exception {
-	    	//A vous de coder
+	    public int shouldReturn400ifSeasonIsHigherThanEight() throws Exception {
+			if (Season > 8)
+	    		return(400);
 	    }
 	    
 }
